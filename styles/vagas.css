@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.vagas {
+    margin: 6em 0;
+}
+
+.vagas__informativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.vagas__informativo__textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2em;
+    gap: 2em;
+}
+.vagas__informativo__titulo {
+    color: var(--vermelho);
+    background-color: #8e242425;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 2em;
+    padding: 4px 12px;
+}
+
+.vagas__informativo__span {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.vagas__informativo__paragrafo {
+    font-size: 20px;
+    color: var(--cinza-claro);
+}
+
+.vagas__opcoes {
+    width: 100%;
+    margin-top: 5em;
+}
+
+.vagas__opcoes__container {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    margin: 0 25%;
+}
+
+.vagas__opcoes__tipo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+}
+
+.vagas__tipo__funcao {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border: 1px solid #EAECF0;
+    border-radius: 1em;
+    padding: 24px 24px 28px 24px;
+}
+
+.vagas__funcao__informacoes {
+    display: flex;
+    gap: 1.5em;
+}
+
+.vagas__tipo__nome {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.vagas__funcao__titulo {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.vagas__funcao__informacoes {
+    color: var(--cinza-claro);
+    font-weight: 500;
+}

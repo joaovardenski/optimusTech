@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.entrada {
+    padding: 96px 0;
+    text-align: center;
+}
+
+.entrada__textos {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.entrada__textos__titulo {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.entrada__textos__topico {
+    font-weight: 600;
+    font-size: 48px;
+    width: 80%;
+}
+
+.entrada__textos__paragrafo {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    padding-top: 12px;
+    width: 70%;
+}

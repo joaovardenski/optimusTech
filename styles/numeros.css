@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.numeros {
+    display: flex;
+    gap: 4em;
+    padding: 0 5em 6em 5em;
+    justify-content: center;
+}
+
+.numeros__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+    gap: 4em;
+}
+
+.numeros__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 30%;
+}
+
+.numeros__conteudo__quantidade {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.numeros__conteudo__titulo {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.numeros__conteudo__paragrafo {
+    color: var(--cinza-claro);
+}
